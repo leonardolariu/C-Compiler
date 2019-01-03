@@ -1,0 +1,51 @@
+begin
+
+string str1 = "This ", str2 = "project is ", str3;
+str3 = "GREAT!";
+
+print(str1 + str2 + str3, string);
+
+print(str1 > "WXYZ" || 
+str1 + str3 == "This GREAT!" && "Ana" > "Leo", 
+bool); //0 || 1 && 0
+
+float c;
+float a, b = c = 0.7;
+
+a = b;
+print(a > b || b > a, bool); //0 || 0
+
+const float d = 5.0;
+print(a <= d, bool); //0.7 <= 5.0
+
+print(a + b 
+* d, float); //0.7 + 0.7 * 5.0 = 4.2 
+
+
+
+print("Here come incorrect statements!", string);
+
+
+
+float 7; //syntax error
+
+int a; //already declared variable 'a'
+
+x = 11; //undeclared variable 'x'
+
+int x = a; //assignment between 2 different types
+
+int x, y; 
+print(x + 19, int); //undefined variable 'x' used in expression
+
+print(a + 7, int);
+/*different types used in the same expression
+expression doesn't match print type*/
+
+d = 0.3; //attempt of changing a const value
+
+print(str1 - str3, string); //undefined string operator '-'
+
+print("a" < 7, bool); //comparison between 2 different types
+
+end

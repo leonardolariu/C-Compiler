@@ -1,0 +1,9 @@
+string str1 = This 
+string str2 = project is 
+string str3 = GREAT!
+float c = 0.700000
+float a = 0.700000
+float b = 0.700000
+const float d = 5.000000
+int x = 0
+int y = 0
