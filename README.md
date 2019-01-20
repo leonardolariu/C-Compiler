@@ -1,2 +1,2 @@
 # Formal-Languages-Automata-Compilers
-Lex & Yacc based C compiler
+Lex and Yacc based C compiler
