@@ -1,2 +1,2 @@
-# C-Compiler
+# C-Interpreter
 
